@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abel"
+                android:text="Nombre"
+                android:textColor="#9C9A9A"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="05dp"
+                android:fontFamily="@font/abel"
+                android:text="Apellidos"
+                android:textColor="#9C9A9A"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/abel"
+                android:text="Edad"
+                android:textColor="#9C9A9A"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnEditarRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#DCD9D9"
+                android:text="Editar"
+                android:textAlignment="center"
+                app:strokeColor="?android:attr/textColorLink"
+                app:strokeWidth="1sp" />
+
+            <Button
+                android:id="@+id/btnEliminarRegistro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#DCD9D9"
+                android:text="Eliminar"
+                app:strokeColor="?android:attr/textColorLink"
+                app:strokeWidth="1sp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnActividadesRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progreso // Actividades"
+        android:backgroundTint="#DCD9D9"
+        app:strokeColor="?android:attr/textColorLink"
+        app:strokeWidth="1sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#000000" />
+
+</LinearLayout>

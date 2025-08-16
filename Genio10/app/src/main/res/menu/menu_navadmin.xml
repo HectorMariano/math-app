@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Progreso_1"
+        android:icon="@drawable/icono_navegacion"
+        android:title="@string/Opcion_nav1" />
+    <item
+        android:id="@+id/Admin"
+        android:icon="@drawable/icono_admin3"
+        android:title="@string/Opcion_nav2" />
+</menu>

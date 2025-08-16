@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fondo"
+    android:layout_height="match_parent"
+    tools:context=".explicacion_conceptos">
+
+    <TextView
+        android:id="@+id/txtdescripcion2"
+        android:layout_width="187dp"
+        android:layout_height="213dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="63dp"
+        android:fontFamily="@font/coming_soon"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="152dp"
+        android:layout_alignTop="@+id/txtdescripcion2"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="41dp"
+        android:layout_toEndOf="@+id/txtdescripcion2"
+        app:srcCompat="@drawable/unidades_01" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="21dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/libros"
+        app:srcCompat="@drawable/libros" />
+
+    <TextView
+        android:id="@+id/txtitulo"
+        android:layout_width="233dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@+id/img"
+        android:fontFamily="@font/coming_soon"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="138dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/img"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="31dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/img_resta2" />
+
+    <TextView
+        android:id="@+id/txtdescripcion"
+        android:layout_width="220dp"
+        android:layout_height="174dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="142dp"
+        android:layout_toEndOf="@+id/img1"
+        android:fontFamily="@font/coming_soon"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:onClick="Atras"
+        android:text="Regresar al Menú" />
+
+</RelativeLayout>

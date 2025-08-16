@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Genio Matematico</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">Menú de Inicio</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Unidades</string>
+    <string name="menu_gallery">Progreso</string>
+    <string name="menu_slideshow">Recompensas</string>
+
+    <string name="btn1">Volver</string>
+    <string name="btn2">Siguiente</string>
+    <string name="btn3">Revisar</string>
+    <string name="btn4">Subir</string>
+    <string name="btn5">Borrar</string>
+    <string name="btn6">Actualizar</string>
+    <string name="btn7">Anterior</string>
+
+    <string name="txt1">Datos Personales</string>
+    <string name="txt2">Nombre</string>
+    <string name="txt3">Apellidos</string>
+    <string name="txt4">Correo</string>
+    <string name="txt5">Buscar Cuenta</string>
+    <string name="txt6">Recuerda usar esta misma cuenta si vas a cambiar de dispositivo para poder acceder a la información que ya tengas registrada</string>
+
+    <string name="txtmenu1">Pág. 1</string>
+    <string name="txtmenu2">Pág. 2</string>
+    <string name="txtmenu3">Pág. 3</string>
+
+    <string name="txtprogreso1">Última Puntuación</string>
+    <string name="txtprogreso2">Mejor Puntuación</string>
+    <string name="txtprogreso3">Menor Puntuación</string>
+
+    <string name="Opcion_nav1">Progreso Alumno/s</string>
+    <string name="Opcion_nav2">Admin. Usuarios</string>
+    <string name="Opcion_nav3">Inicio</string>
+
+</resources>
